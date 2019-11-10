@@ -135,6 +135,6 @@ app.get('*',(req, res)=>{
 // Sequence static ->default-> some path -> not matched path  
 
 app.listen(port,()=>{
-    console.log('Server is up on  port 3000.');
+    console.log('Server is up on  port 3000.', port);
 });
 
